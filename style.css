@@ -1,11 +1,13 @@
 @font-face {
   font-family: Montserrat;
-  src: url(../font/Montserrat-Bold.ttf);
+  src: url(../c-f/font/Montserrat-Bold.ttf);
 }
+
 @font-face {
   font-family: Poppins;
-  src: url(../font/Poppins-Regular.ttf);
+  src: url(../c-f/font/Poppins-Regular.ttf);
 }
+
 html,
 body {
   margin: 0px 0px 0px 0px;
@@ -57,24 +59,30 @@ body {
   0% {
     width: 150px;
   }
+
   50% {
     width: 100%;
   }
+
   100% {
     width: 150px;
   }
 }
+
 @keyframes btn-anim-c {
   0% {
     width: 100%;
   }
+
   50% {
     width: 150px;
   }
+
   100% {
     width: 100%;
   }
 }
+
 .show-result {
   font-weight: 400;
   font-family: Poppins;
