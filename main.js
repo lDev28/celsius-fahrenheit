@@ -9,7 +9,9 @@ function frg() {
 
 	let frgResult = (5 / 9) * (frginput - 32);
 
-	result.innerHTML = "C is: " + frgResult.toFixed(2);
+	var mainResult = frgResult.toFixed(2);
+
+	result.innerHTML = "C is: " + mainResult;
 };
 
 
@@ -25,5 +27,7 @@ function celcius() {
 
 	let cresult = (cinput * 1.8) + 32;
 
-	resultC.innerHTML = "F is:" + cresult.toFixed(2);
+	var mainResultC = cresult.toFixed(2);
+
+	resultC.innerHTML = "F is: " + mainResultC;
 };
